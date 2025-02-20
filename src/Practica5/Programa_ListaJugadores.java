@@ -57,7 +57,10 @@ public class Programa_ListaJugadores {
             atleticoMadrid.anyadirJugador(" Rodrigo de Paul",78);
             atleticoMadrid.anyadirJugador("José María Giménez", 90);
 
-            EquipoDeportivo realSociedad = new EquipoDeportivo("REAL SOCIEDAD", 5);
+        /**
+         * Crea el cuarto equipo
+          */
+        EquipoDeportivo realSociedad = new EquipoDeportivo("REAL SOCIEDAD", 5);
             equipos [3] = realSociedad;
 
             realSociedad.anyadirJugador("Mikel Oyarzabal", 82);
@@ -66,7 +69,10 @@ public class Programa_ListaJugadores {
             realSociedad.anyadirJugador("Martín Zubimendi", 80);
             realSociedad.anyadirJugador("David Silva", 70);
 
-            EquipoDeportivo sevilla = new EquipoDeportivo("SEVILLA FUTBOL CLUB", 6);
+        /**
+         * Crea el último equipo
+          */
+        EquipoDeportivo sevilla = new EquipoDeportivo("SEVILLA FUTBOL CLUB", 6);
             equipos [4] = sevilla;
             sevilla.anyadirJugador("Youssef En-Nesyri", 88);
             sevilla.anyadirJugador("Ivan Rakitić", 85);
@@ -80,6 +86,7 @@ public class Programa_ListaJugadores {
 
         /**
          * Este bucle, consulta los equipos por siglas
+         * Le pide al usuario que equipo desea jugar o si quiere salir, en el bucle lo comprueba (si las siglas son o no correctas)
          */
         while (!salir){
                 System.out.println("¿QUE EQUIPO QUIERES BUSCAR? INTRODUCE SUS SIGLAS");
