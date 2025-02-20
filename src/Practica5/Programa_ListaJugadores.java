@@ -9,7 +9,9 @@ import java.util.Scanner;
 public class Programa_ListaJugadores {
 
     /**
-     * Mtodo principal que permite al usuario buscar equipos por sus siglas y visualizar su información.
+     * Metodo main, es el metodo principal
+     * Permite al usuario buscar equipos por sus siglas y visualizar la información.
+     * Muestra por pantalla al usuario el nombre del equipo, los jugadores y los minutos jugados por cada jugador
      */
     public static void main(String[] args) {
             Scanner teclado = new Scanner(System.in);
