@@ -1,7 +1,8 @@
 package Practica5;
 import java.util.Scanner;
 /**
- * Esta es la clase principal, que gestiona la interacción con el usuario para consultar la información sobre los equipos deportivos.
+ * Esta es la clase principal, desde la que se ejecuta el programa
+ *  Gestiona la interacción con el usuario para consultar la información sobre los equipos deportivos.
  * @author ANA SERRANO RODERA
  * @version 1.0
  */
