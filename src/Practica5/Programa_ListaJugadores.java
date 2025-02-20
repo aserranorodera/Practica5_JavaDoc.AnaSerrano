@@ -43,6 +43,9 @@ public class Programa_ListaJugadores {
             barcelona.anyadirJugador("Frenkie de Jong", 80);
             barcelona.anyadirJugador("Ronald Araújo", 90);
 
+        /**
+         * Crea el tercer equipo (los mismos datos que los anteriores cambiando jugadores y minutos)
+          */
         EquipoDeportivo atleticoMadrid = new EquipoDeportivo("ATLÉTICO DE MADRID", 6);
             equipos[2] = atleticoMadrid;
 
