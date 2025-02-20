@@ -6,9 +6,14 @@ package Practica5;
  * @version Version 1.0
  */
 public class EquipoDeportivo {
+    /**
+     * Estas son las constantes
+     */
     public static final int MAX_JUGADORES = 6;
     public static final int MAX_MINUTOS = 120;
-
+    /**
+     * Estos son los atributos
+     */
     private String [] jugadores;
     int posicionJugador = 0;
     private int [] minutosPorJugador;
@@ -21,6 +26,7 @@ public class EquipoDeportivo {
      * Constructor de la clase EquipoDeportivo.
      * @param nombre: Es el nombre del equipo deportivo.
      * @param cantidadJugadores: Es el número de jugadores del equipo.
+     * En este constructor sacamos las siglas de los nombres del equipo deportivo
      */
     public EquipoDeportivo(String nombre, int cantidadJugadores){
         this.nombre = nombre;
@@ -117,6 +123,7 @@ public class EquipoDeportivo {
      * @param nombre, es el nombre del jugador.
      * @param minutosJugados, son los minutos jugados por el jugador.
      * @return true si el jugador fue añadido correctamente y false si el jugador no ha sido añadido.
+     * Comprueba si los minutosJugados son ocrrectos y si la lista está llena
      */
     public boolean anyadirJugador (String nombre, int minutosJugados){
         boolean anyadido = false;
