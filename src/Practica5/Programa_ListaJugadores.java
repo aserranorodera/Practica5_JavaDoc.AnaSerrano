@@ -19,6 +19,7 @@ public class Programa_ListaJugadores {
 
         /**
          * Creación de equipos y asignación de jugadores
+         * Crea el equipo 1 y añade la información de los jugadores (nombre) y los minutos jugados (minutosJugados)
          */
         EquipoDeportivo realMadrid = new EquipoDeportivo("REAL MADRID CLUB DE FUTBOL", 6);
             equipos [0] = realMadrid;
@@ -30,7 +31,10 @@ public class Programa_ListaJugadores {
             realMadrid.anyadirJugador("Toni Kroos", 70);
             realMadrid.anyadirJugador("Antonio Rüdiger", 88);
 
-            EquipoDeportivo barcelona = new EquipoDeportivo("FUTBOL CLUB BARCELONA", 5);
+        /**
+         * Crea el segundo equipo
+          */
+        EquipoDeportivo barcelona = new EquipoDeportivo("FUTBOL CLUB BARCELONA", 5);
             equipos [1] = barcelona;
 
             barcelona.anyadirJugador("Robert Lewandowski", 90);
@@ -39,7 +43,7 @@ public class Programa_ListaJugadores {
             barcelona.anyadirJugador("Frenkie de Jong", 80);
             barcelona.anyadirJugador("Ronald Araújo", 90);
 
-            EquipoDeportivo atleticoMadrid = new EquipoDeportivo("ATLÉTICO DE MADRID", 6);
+        EquipoDeportivo atleticoMadrid = new EquipoDeportivo("ATLÉTICO DE MADRID", 6);
             equipos[2] = atleticoMadrid;
 
 
